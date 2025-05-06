@@ -43,8 +43,6 @@ key_value[6] = 18
 key_value[3] = 323 
 print ("Keys and Values sorted", 
 "in alphabetical order by the value") 
-# Note that it will sort in lexicographical order 
-# For mathematical way, change it to float 
 print(sorted(key_value.items(), key = 
 lambda kv:(kv[1], kv[0])))
 ```
